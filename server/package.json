@@ -1,0 +1,29 @@
+{
+  "name": "mern-product-catalog-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anton-Kuchmasov/mern-product-catalog-backend.git"
+  },
+  "author": "Anton Kuchmasov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anton-Kuchmasov/mern-product-catalog-backend/issues"
+  },
+  "homepage": "https://github.com/Anton-Kuchmasov/mern-product-catalog-backend#readme",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "http-status": "^1.7.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "6.5"
+  }
+}
